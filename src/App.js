@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-// import leftImg from './images/back.png'
-// import front from './images/forepart.png'
-// import back from './images/rearpart.jpg'
+import leftImg from './images/back.png'
+import front from './images/forepart.png'
+import back from './images/rearpart.jpg'
 import './App.css'
 function App(){
   const [cardHolderName, setCardHolderName] = useState('');
@@ -119,15 +119,15 @@ function App(){
   };
   return (
     <>
-      {/* <img className="color-image" src={leftImg} />
+      <img className="color-image" src={leftImg} />
       <img className="front-image" src={front} />
-      <img className="back-image" src={back} /> */}
+      <img className="back-image" src={back} />
       <div id="card-number"className="card-number">0000 0000 0000 0000</div>
       <div id="card-name"className="card-holder">JANE APPLESEED</div>
       <div id="card-expiryMM"className="card-expiryMM">00</div>
       <div className="card-expiry-slash">/</div>
       <div id="card-expiryYY" className="card-expiryYY">00</div>
-      {/* <div id="card-cvv"className="card-cvv">000</div> */}
+      <div id="card-cvv"className="card-cvv">000</div>
       <div className="form">
         <div className="card-name">CARDHOLDER NAME</div>
         <input className="card-name-input"

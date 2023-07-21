@@ -1,4 +1,4 @@
-/* .color-image{
+.color-image{
   display: flex;
 }
 .front-image{
@@ -27,7 +27,7 @@
   font-size: 28px;
   letter-spacing: 3px;
   color: #FFFFFF;
-} */
+}
 .card-holder{
   position: absolute;
   display: flex;
@@ -68,7 +68,7 @@
   letter-spacing: 1px;
   color: #FFFFFF;
 }
-/* .card-cvv{
+.card-cvv{
   position: absolute;
   display: flex;
   top:63%;
@@ -77,7 +77,7 @@
   font-size: 18px;
   letter-spacing: 1px;
   color: #000000;
-} */
+}
 .card-name{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   position: absolute;
