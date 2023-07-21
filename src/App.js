@@ -112,7 +112,7 @@ function App(){
       cvv.length === 3
     ) {
       // Perform save logic here
-      console.log('Card details saved');
+      console.log('You successfully added your card details ');
     } else {
       console.log('Please correct the form errors');
     }
